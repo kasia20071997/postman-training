@@ -16,13 +16,14 @@
 							"script": {
 								"id": "476a5a89-2e24-4b00-82cd-edddd774be78",
 								"exec": [
+									"//:)",
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
 									"});",
 									"pm.test(\"Body matches string\", function () {",
 									"    pm.expect(pm.response.text()).to.include(\"File uploaded to\");",
 									"});",
-									"//:)"
+									"//:) smile"
 								],
 								"type": "text/javascript",
 								"packages": {}
